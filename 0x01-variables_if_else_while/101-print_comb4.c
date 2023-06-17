@@ -10,7 +10,7 @@
 int main(void)
 
 {
-	char d, p, q;
+	int d, p, q;
 
 	for (d = '0'; d < '9'; d++)
 	{
@@ -20,8 +20,8 @@ int main(void)
 	{
 	if ((p != d) != q)
 	{
-	putchar(p);
 	putchar(d);
+	putchar(p);
 	putchar(q);
 	if (d == '7' && p == '8')
 	continue;
